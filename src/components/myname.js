@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
-
+import './css/myname.css';
 class Myname extends React.Component {
     render() {
-        return <h1>Hello, my name is {this.props.name}</h1>;
+        return <div className={'section'}>
+            <h1 className={'hello'}>Hello <br></br> my name <br></br> is <br></br> {this.props.name}.</h1>
+        </div>;
     }
 }
 
