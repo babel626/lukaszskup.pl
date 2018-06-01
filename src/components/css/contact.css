@@ -1,0 +1,41 @@
+.available-span{
+    color: #2BC016;
+}
+
+.contactme-link{
+    text-decoration: underline !important;
+    transition: 0.3s;
+    color:black;
+}
+
+.contactme-link:hover{
+    background-color: black;
+    cursor: pointer;
+    color:white !important;
+
+}
+
+.contact h1{
+    margin-top: 6rem;
+}
+
+.social{
+    max-width: 970px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:56px;
+}
+
+.social a{
+    color:black;
+    transition: 0.3s;
+}
+
+.social a:hover{
+    background-color: black;
+    cursor: pointer;
+    color:white !important;
+}

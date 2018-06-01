@@ -3,3 +3,19 @@
   font-family: Roboto Slab;
 }
 
+.scrollup{
+  position: fixed;
+  color:black;
+  font-size: 45px;
+  bottom: 50px;
+  right: 20px;
+}
+
+.scrolldown{
+  position: fixed;
+  color:black;
+  font-size: 45px;
+  bottom: 20px;
+  right: 20px;
+}
+

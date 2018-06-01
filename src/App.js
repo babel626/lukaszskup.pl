@@ -4,6 +4,7 @@ import Whatido from './components/whatido';
 import Mywork from './components/mywork';
 import {Fullpage, Slide, HorizontalSlider} from 'fullpage-react';
 import './App.css';
+import Contact from "./components/contact";
 
 const fullPageOptions = {
     // for mouse/wheel events
@@ -32,7 +33,8 @@ horizontalSliderProps.slides = horizontalSlides;
 const slides = [
     <Slide> <Myname name={'Łukasz'}/> </Slide>,
     <Slide> <Whatido/> </Slide>,
-    <Slide> <Mywork /></Slide>
+    <Slide> <Mywork /></Slide>,
+    <Slide> <Contact /></Slide>
 ];
 fullPageOptions.slides = slides;
 
