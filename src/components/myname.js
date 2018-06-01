@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Block from '../components/block.js';
 import './css/myname.css';
 class Myname extends React.Component {
     render() {

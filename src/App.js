@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Myname from './components/myname';
 import Whatido from './components/whatido';
+import Mywork from './components/mywork';
 import {Fullpage, Slide, HorizontalSlider} from 'fullpage-react';
 import './App.css';
 
@@ -31,7 +32,7 @@ horizontalSliderProps.slides = horizontalSlides;
 const slides = [
     <Slide> <Myname name={'Łukasz'}/> </Slide>,
     <Slide> <Whatido/> </Slide>,
-    <HorizontalSlider {...horizontalSliderProps}></HorizontalSlider>
+    <Slide> <Mywork /></Slide>
 ];
 fullPageOptions.slides = slides;
 
